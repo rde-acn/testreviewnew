@@ -10,7 +10,7 @@
 
 ## 📋 AssetStatus
 <!-- RDE_ASSET_STATUS:START -->
-stage-exploring
+stage-validating
 <!-- RDE_ASSET_STATUS:END -->
 
 ## 🗂️ AssetCategory
@@ -95,7 +95,7 @@ Project Documentation
 
 ## 📅 CreatedOn
 <!-- CREATED_ON:START -->
-2026-04-30 UTC
+2026-04-30
 <!-- CREATED_ON:END -->
 
 ## 👤 CreatedBy
@@ -111,7 +111,6 @@ developer@local
 
 ## 🔎 SMEReview
 <!-- SME_REVIEW:START -->
-
 ### ✅ ReviewData
 > Rating scale: 1 (Poor) → 2 (Fair) → 3 (Good) → 4 (Very Good) → 5 (Excellent)
 
@@ -120,17 +119,17 @@ developer@local
 | Technical Accuracy         | 1 / 5  | ⭐☆☆☆☆          |
 | Security & Compliance      | 1 / 5  | ⭐☆☆☆☆          |
 | Adherence to Standards     | 1 / 5  | ⭐☆☆☆☆          |
-| Code Quality / Readability | 3 / 5  | ⭐⭐⭐☆☆          |
-| Documentation Completeness | 2 / 5  | ⭐⭐☆☆☆          |
-| Reusability / Scalability  | 3 / 5  | ⭐⭐⭐☆☆          |
+| Code Quality / Readability | 1 / 5  | ⭐☆☆☆☆          |
+| Documentation Completeness | 1 / 5  | ⭐☆☆☆☆          |
+| Reusability / Scalability  | 1 / 5  | ⭐☆☆☆☆          |
 
 ## 🔄 ReviewDecision
 
 ### OverallStatus
 <!-- OVERALL_STATUS:START -->
-- ✅ Approved
+- ⬜ ✅ Approved
 - ⬜ 🔁 Approved with Changes
-- ⬜ ❌ Rejected
+- ✅ ❌ Rejected
 - ⬜ 🔍 Needs Re-review
 <!-- END: Overall Status -->
 
@@ -141,7 +140,7 @@ developer@local
 | 🔴 Critical | ⬜ |
 | 🟠 Major | ⬜ |
 | 🟡 Minor | ⬜ |
-| ⚪ None | ⬜ |
+| ⚪ None | ✅ |
 <!-- END: Priority of Changes -->
 
 ### Re-reviewRequired?
@@ -149,12 +148,17 @@ developer@local
 | Option | Selected |
 |--------|----------|
 | ✅ Yes | ⬜ |
-| ❌ No | ⬜ |
+| ❌ No | ✅ |
 <!-- END: Re-review Required -->
 
 ### Re-reviewDueDate
 <!-- REREVIEW_DUE_DATE:START -->
-2026-04-30
+
 <!-- END: REREVIEW_DUE_DATE -->
+
+### ReviewerComments
+<!-- REVIEWER_COMMENTS:START -->
+Rejected for quality reason
+<!-- END: Reviewer Comments -->
 
 <!-- END: SME Review -->
